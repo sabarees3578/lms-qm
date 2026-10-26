@@ -9,6 +9,7 @@ export default defineConfig({
   },
   preview: {
     port: 8081,
-    host: '127.0.0.1'
+    host: '127.0.0.1',
+    allowedHosts: ['kiqgo7hzqssgqvt3uwldllr2.103.98.192.11.sslip.io']
   }
 })
