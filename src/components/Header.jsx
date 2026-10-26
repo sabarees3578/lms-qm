@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useStore } from '../context/StoreContext.jsx'
 import { useState } from 'react'
+import logo from '../pages/Kanagam technology solutions 2026.png'
 
 export default function Header() {
   const { user, logout, saved, toggleTheme, theme } = useStore()
@@ -13,7 +14,7 @@ export default function Header() {
   }
   return (
     <header>
-      <Link to="/"><img className="logo" src="src/pages/Kanagam technology solutions 2026.png" alt="Kanagam Tech" onError={(e)=>{e.target.style.display='none'}} /></Link>
+      <Link to="/"><img className="logo" src={logo} alt="Kanagam Tech" /></Link>
       
       <nav>
         <Link to="/courses">Courses</Link>
