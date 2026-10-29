@@ -33,7 +33,7 @@ export default function Students() {
           <h1>Students</h1>
           <p className="fine">A clear view of your class roster and IoT assessment results.</p>
         </div>
-        <span className="students-total">829 learners</span>
+        <span className="students-total">339 learners</span>
       </div>
 
       <section className="student-metrics" aria-label="Student overview">
@@ -46,7 +46,7 @@ export default function Students() {
             </span>
             <span className="student-metric-label">Enrolment</span>
           </div>
-          <strong className="student-metric-value">829</strong>
+          <strong className="student-metric-value">339</strong>
           <span className="student-metric-description">Total students</span>
         </article>
         <article className="student-metric student-metric-assessments">
@@ -89,7 +89,7 @@ export default function Students() {
         <div className="student-directory-heading">
           <div>
             <h2 id="student-list-heading">Class roster</h2>
-            <p>829 of 829 students</p>
+            <p>339 of 339 students</p>
           </div>
           <div className="student-filters">
             <label className="student-search">
