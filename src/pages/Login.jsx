@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useStore } from '../context/StoreContext.jsx'
+import logo from '../Quantummate Logo White.png'
 
 export default function Login() {
   const [name, setName] = useState('')
@@ -17,7 +18,7 @@ export default function Login() {
     <div className="login">
       <div className="login-art">
         
-        <img src="/src/Quantummate Logo White.png" alt="Login art" />
+        <img src={logo} alt="Quantummate" />
         <h2>Science meets possibility.</h2>
         <p>Connecting ambitious learners and institutions with simulation software, advanced laboratory equipment and practical technology education.</p>
         
