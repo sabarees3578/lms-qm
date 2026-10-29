@@ -29,25 +29,59 @@ export default function Students() {
     <div className="wrap students-page">
       <div className="page-title students-title">
         <div>
-          <div className="eyebrow">LEARNER DIRECTORY</div>
+          
           <h1>Students</h1>
           <p className="fine">A clear view of your class roster and IoT assessment results.</p>
         </div>
-        <span className="students-total">509 learners</span>
+        <span className="students-total">829 learners</span>
       </div>
 
       <section className="student-metrics" aria-label="Student overview">
-        <article className="student-metric">
-          <span className="student-metric-icon">♙</span>
-          <div><strong>509</strong><span>Total students</span></div>
+        <article className="student-metric student-metric-enrollment">
+          <div className="student-metric-top">
+            <span className="student-metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M16 20v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 18.5V20m6-9a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7-7.5a4 4 0 0 1 0 7.75M20 20v-1.5a3.5 3.5 0 0 0-2.5-3.35" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </span>
+            <span className="student-metric-label">Enrolment</span>
+          </div>
+          <strong className="student-metric-value">829</strong>
+          <span className="student-metric-description">Total students</span>
         </article>
-        <article className="student-metric">
-          <span className="student-metric-icon">✓</span>
-          <div><strong>{scoredCount}</strong><span>Assessment scores recorded</span></div>
+        <article className="student-metric student-metric-assessments">
+          <div className="student-metric-top">
+            <span className="student-metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="m5 12.5 4.2 4.2L19 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </span>
+            <span className="student-metric-label">Assessment</span>
+          </div>
+          <strong className="student-metric-value">{scoredCount}</strong>
+          <span className="student-metric-description">Scores recorded</span>
         </article>
-        <article className="student-metric">
-          <span className="student-metric-icon">↗</span>
-          <div><strong>{averageScore}%</strong><span>Average among recorded scores</span></div>
+        <article className="student-metric student-metric-average">
+          <div className="student-metric-top">
+            <span className="student-metric-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 17.5 9.2 12l3.6 3.5L20 7.8M14.5 7.8H20v5.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </span>
+            <span className="student-metric-label">Class average</span>
+          </div>
+          <strong className="student-metric-value">{averageScore}%</strong>
+          <span className="student-metric-description">Average assessment score</span>
+          <div
+            className="student-metric-progress"
+            role="meter"
+            aria-label="Average assessment score"
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-valuenow={averageScore}
+          >
+            <span style={{ width: `${averageScore}%` }} />
+          </div>
         </article>
       </section>
 
@@ -55,7 +89,7 @@ export default function Students() {
         <div className="student-directory-heading">
           <div>
             <h2 id="student-list-heading">Class roster</h2>
-            <p>509 of 509 students</p>
+            <p>829 of 829 students</p>
           </div>
           <div className="student-filters">
             <label className="student-search">

@@ -32,7 +32,14 @@ export default function CourseDetail() {
         </div>
       </div>
       <aside className="buy-card">
-        <img src={`/assets/courses/${encodeURIComponent(c.img)}`} alt={c.title} />
+        <img src={`/assets/courses/${encodeURIComponent(c.img)}`} alt={c.imgAlt || c.title} />
+        {c.imageAttribution && (
+          <small className="image-attribution detail-image-attribution">
+            Image: <a href={c.imageAttribution.source} target="_blank" rel="noreferrer">{c.imageAttribution.creator}</a>
+            {' / '}
+            <a href={c.imageAttribution.licenseUrl} target="_blank" rel="noreferrer">{c.imageAttribution.license}</a>
+          </small>
+        )}
         <div className="price">Free <span className="level">{c.level}</span></div>
         <button className="btn" onClick={()=>enroll(c.id)}>{enrolled.includes(c.id)?'Enrolled ✓':'Enroll for free'}</button>
         <Link to="/learning" className="btn outline" style={{marginTop:10}}>Go to My Learning</Link>

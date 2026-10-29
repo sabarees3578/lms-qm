@@ -27,7 +27,7 @@ export function StoreProvider({ children }) {
   useEffect(() => { write('progress', progress) }, [progress])
 
   const toggleTheme = () => setTheme(t => t==='light'?'dark':'light')
-  const login = (u) => { setUser(u); showToast('Welcome back'); }
+  const login = (u) => { setUser(u); showToast('Welcome back'); } 
   const logout = () => { setUser(null); showToast('Signed out'); }
   const toggleSave = (id) => {
     setSaved(s => s.includes(id) ? s.filter(x=>x!==id) : [...s,id])

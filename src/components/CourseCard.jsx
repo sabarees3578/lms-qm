@@ -6,8 +6,15 @@ export default function CourseCard({ c }) {
   return (
     <article className="course">
       <div className="thumb">
-        <Link to={`/course/${c.id}`}><img src={`/assets/courses/${encodeURIComponent(c.img)}`} alt={c.title} /></Link>
+        <Link to={`/course/${c.id}`}><img src={`/assets/courses/${encodeURIComponent(c.img)}`} alt={c.imgAlt || c.title} /></Link>
         <span className="badge">{c.badge}</span>
+        {c.imageAttribution && (
+          <small className="image-attribution">
+            <a href={c.imageAttribution.source} target="_blank" rel="noreferrer">{c.imageAttribution.creator}</a>
+            {' / '}
+            <a href={c.imageAttribution.licenseUrl} target="_blank" rel="noreferrer">{c.imageAttribution.license}</a>
+          </small>
+        )}
         <button className="save" onClick={()=>toggleSave(c.id)}>{saved.includes(c.id)?'♥':'♡'}</button>
       </div>
       <div className="course-info">

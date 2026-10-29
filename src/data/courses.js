@@ -1,8 +1,8 @@
 export const courses = [
   {
     "id": 1,
-    "title": "PCB Design",
-    "category": "PCB Design",
+    "title": "Quantum Computing and Qiskit Simulation",
+    "category": "Quantum Computing",
     "teacher": "Kanagam Tech",
     "rating": "4.8",
     "reviews": "128",
@@ -10,13 +10,13 @@ export const courses = [
     "lessons": 96,
     "level": "All levels",
     "badge": "Explore course",
-    "img": "PCB Design.jpeg",
-    "desc": "Learn the foundations of printed circuit board design, from schematics and component placement to routing and design review."
+    "img": "Quantum Computing.jpeg",
+    "desc": "Learn the foundations of quantum computing and how to simulate quantum circuits using Qiskit."
   },
   {
     "id": 2,
-    "title": "PCB Fabrication",
-    "category": "PCB Fabrication",
+    "title": "Quantum Machine Learning (QML)",
+    "category": "Quantum Computing",
     "teacher": "Kanagam Tech",
     "rating": "4.8",
     "reviews": "178",
@@ -24,14 +24,21 @@ export const courses = [
     "lessons": 196,
     "level": "All levels",
     "badge": "Explore course",
-    "img": "PCB Fabrication.jpeg",
-    "desc": "Explore how printed circuit boards are made, including fabrication workflows, assembly and quality checks."
+    "img": "Quantum Machine Learning.jpeg",
+    "imgAlt": "IBM quantum computer displayed in its cryogenic housing",
+    "imageAttribution": {
+      "creator": "Dev Jadiya",
+      "source": "https://commons.wikimedia.org/wiki/File:IBM_Quantum_Computer_Demo.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "desc": "Explore machine learning concepts and how quantum circuits can be used to develop and simulate quantum machine learning models."
   },
   
   {
     "id": 3,
-    "title": "Embedded systems",
-    "category": "Embedded Systems",
+    "title": "Firmware Development Learning",
+    "category": "Firmware Development Learning",
     "teacher": "Kanagam Tech",
     "rating": "4.7",
     "reviews": "128",
@@ -44,8 +51,8 @@ export const courses = [
   },
   {
     "id": 4,
-    "title": "IoT and its application",
-    "category": "Internet of Things",
+    "title": "Real-Time Embedded System & IoT",
+    "category": "Real-Time Embedded System & IoT",
     "teacher": "Kanagam Tech",
     "rating": "4.9",
     "reviews": "158",
@@ -58,8 +65,8 @@ export const courses = [
   },
   {
     "id": 5,
-    "title": "Image processing using Raspberry Pi",
-    "category": "Image processing using Raspberry Pi",
+    "title": "Real-Time Computer Vision & Edge Intelligence",
+    "category": "Real-Time Computer Vision & Edge Intelligence",
     "teacher": "Kanagam Tech",
     "rating": "4.9",
     "reviews": "158",
@@ -72,9 +79,9 @@ export const courses = [
   },
   {
     "id": 6,
-    "title": "Advance Embedded System in ARM series ",
-    "category": "Advance Embedded System in ARM series",
-    "teacher": "Kanagam Tech",
+    "title": "Industrial Internet of Things",
+    "category": "Industrial Internet of Things",
+    "teacher": "Quantummate",
     "rating": "4.9",
     "reviews": "158",
     "hours": "34",
@@ -85,4 +92,4 @@ export const courses = [
     "desc": "Discover how connected devices, sensors and networks work together, and explore practical Internet of Things applications."
   }
 ];
-export const categories = ["All courses", "PCB Design", "PCB Fabrication", "RF Fabrication", "Embedded Systems", "Internet of Things", "Image Processing"];
+export const categories = ["All courses", "Quantum Computing", "PCB Design", "PCB Fabrication", "RF Fabrication", "Embedded Systems", "Internet of Things", "Image Processing"];

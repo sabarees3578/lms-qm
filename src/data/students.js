@@ -1,17 +1,17 @@
 export const studentDate = '12.10.26'
 export const students = [
   {
-    "name": "A Jaanhavi Bharadhwaja",
-    "college": "REVA University",
+    "name": "Gokul Kannan",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
+    "scorePercent": null,
+    "scoreMarks": null
   },
   {
     "name": "AKASH",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -19,764 +19,26 @@ export const students = [
     "scoreMarks": 50
   },
   {
-    "name": "ASMITHA R",
-    "college": "REVA University",
+    "name": "Mukesh K",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Aakash R25EN002",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 92,
-    "scoreMarks": 46
-  },
-  {
-    "name": "Abhijith A",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 94,
-    "scoreMarks": 47
-  },
-  {
-    "name": "Abhilasha V Patil",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Abhishek",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
+    "scorePercent": null,
+    "scoreMarks": null
   },
   {
     "name": "Abhishek B Raj",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
     "scorePercent": 94,
     "scoreMarks": 47
-  },
-  {
-    "name": "Adithi V",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Aditi A",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Aditya Kulkarni",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Aishwarya A U",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Ajay C  N",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Ajay Yadav G",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Akash Biradar",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 94,
-    "scoreMarks": 47
-  },
-  {
-    "name": "Akash K",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Akshaya",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Aliveli Sai Jyothi",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Amal Ashley",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Ambika",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Amruta",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Anjaneya Y",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Anusha S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Apeksha.K",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Ashwini Margol",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Asmitha S Shettar",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Aswin Gabrio Fernando V",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 94,
-    "scoreMarks": 47
-  },
-  {
-    "name": "Awaize Ahmed",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 84,
-    "scoreMarks": 42
-  },
-  {
-    "name": "Ayush Shetty",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Ayushi",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "B Akshay",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Bhavana K M",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Bhavya B",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Bhoomika S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Bindushri",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "C. Madhu",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "C.Madhusudhan",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "C.Thanay Prabhu das",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Chaitra Sadanand Sajjan",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Chandan Gowda K C",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Charan R",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Chirag Kapoor",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "DHEERAJ REDDY S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Danish Ahmed M",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Darshan Harnal",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "Darshan T v",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Deepshikha",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Deepti",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Devi Prasad",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 96,
-    "scoreMarks": 48
-  },
-  {
-    "name": "Dhananjay Gowda S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Dhruti M",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Divyaprabha N",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "G Baba Fakrudhin",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "G Shree Haree",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "G.S Rishi Preetham",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Gagana K S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Ganesh K H",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 84,
-    "scoreMarks": 42
-  },
-  {
-    "name": "KAKANI TUSHITA",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 98,
-    "scoreMarks": 49
-  },
-  {
-    "name": "R25ENO17",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "SUHAS N",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 72,
-    "scoreMarks": 36
-  },
-  {
-    "name": "Venkata Sai Lohith",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": 100,
-    "scoreMarks": 50
-  },
-  {
-    "name": "Amrut Wari",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "G Pavan",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
   },
   {
     "name": "Gaurav Dhimanth C",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Gayathri",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Gokul Kannan",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Guru Bharath Reddy",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Harshit N",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Harshith Gowda M",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Honnisha S Sumruddhi",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Jagan Mohan Reddy",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Jaishree I",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Jayasoorya J Shetty",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Jeevan TN",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Jim Aaron V",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "K C Karthik",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "K Mahavirji",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "K Pragnyasheel",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "KAVYA PRAKASH ITAGI",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Karthik",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Kavyanjali Vh",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Kazim Ali Khan",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Kolla Jaswanth Kumar",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Krishnagouda Mallanagouda Patil",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Kushal A",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Lamare Ilawanbet",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Laxmi Shalavadi",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -785,7 +47,7 @@ export const students = [
   },
   {
     "name": "Lekha B",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -793,8 +55,8 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Lekharaj M Amashi",
-    "college": "REVA University",
+    "name": "Harshith Gowda M",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -802,8 +64,17 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Lohith Kumar P N",
-    "college": "REVA University",
+    "name": "Akash Biradar",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 94,
+    "scoreMarks": 47
+  },
+  {
+    "name": "Kazim Ali Khan",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -811,170 +82,26 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Lokambika C V",
-    "college": "REVA University",
+    "name": "Ayushi",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
+    "scorePercent": 100,
+    "scoreMarks": 50
   },
   {
-    "name": "M Sree Lasya",
-    "college": "REVA University",
+    "name": "Awaize Ahmed",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
+    "scorePercent": 84,
+    "scoreMarks": 42
   },
   {
-    "name": "MANOJ P GOWDA",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "MOUNIKA D",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Madan Gowda H",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Madhuumitha S K",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Manjunath",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Manogna Y",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Manvitha",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Megha K N",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Mithil",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Mithun B S",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Mohammed Zaid",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Monisha .P",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Mukesh K",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "NAVANATH T",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Nandhana Raj MP",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Naunath",
-    "college": "REVA University",
-    "course": "IoT And Its Application",
-    "department": "Electronics and Communication",
-    "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
-  },
-  {
-    "name": "Nayana K S",
-    "college": "REVA University",
+    "name": "Kushal A",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -983,7 +110,7 @@ export const students = [
   },
   {
     "name": "Nihar P v",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -991,8 +118,98 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Nilavan Amirthalingam",
-    "college": "REVA University",
+    "name": "Ganesh K H",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 84,
+    "scoreMarks": 42
+  },
+  {
+    "name": "Nayana K S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Adithi V",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Honnisha S Sumruddhi",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Guru Bharath Reddy",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Bhavya B",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Akash K",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Aishwarya A U",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Krishnagouda Mallanagouda Patil",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "C.Thanay Prabhu das",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Naunath",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1001,7 +218,7 @@ export const students = [
   },
   {
     "name": "OMKAR KM",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1009,8 +226,8 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Pallavi HD",
-    "college": "REVA University",
+    "name": "Gayathri",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1018,8 +235,8 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Partha P S",
-    "college": "REVA University",
+    "name": "Jaishree I",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1027,8 +244,8 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Pavan",
-    "college": "REVA University",
+    "name": "Jim Aaron V",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1036,17 +253,17 @@ export const students = [
     "scoreMarks": null
   },
   {
-    "name": "Pavan B",
-    "college": "REVA University",
+    "name": "Bhavana K M",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
-    "scorePercent": null,
-    "scoreMarks": null
+    "scorePercent": 98,
+    "scoreMarks": 49
   },
   {
-    "name": "Peram Jithendra Reddy",
-    "college": "REVA University",
+    "name": "KAVYA PRAKASH ITAGI",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1055,7 +272,511 @@ export const students = [
   },
   {
     "name": "Pobbathi Chethana",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Pavan",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Peram Jithendra Reddy",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Gagana K S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Kavyanjali Vh",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "K C Karthik",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Deepti",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Devi Prasad",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Dhananjay Gowda S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "C.Madhusudhan",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Charan R",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Venkata Sai Lohith",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "G Baba Fakrudhin",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "SUHAS N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 72,
+    "scoreMarks": 36
+  },
+  {
+    "name": "NAVANATH T",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Ambika",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "ASMITHA R",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Amal Ashley",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Ayush Shetty",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Amruta",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "G Pavan",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Abhishek",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Pavan B",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Ashwini Margol",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "G.S Rishi Preetham",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Aliveli Sai Jyothi",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Asmitha S Shettar",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Jayasoorya J Shetty",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Jeevan TN",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Danish Ahmed M",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Anjaneya Y",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Nilavan Amirthalingam",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Lokambika C V",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Madan Gowda H",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Pallavi HD",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Lohith Kumar P N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Bindushri",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Ajay Yadav G",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Jagan Mohan Reddy",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Karthik",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "MOUNIKA D",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Laxmi Shalavadi",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Apeksha.K",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Aakash R25EN002",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 92,
+    "scoreMarks": 46
+  },
+  {
+    "name": "Abhijith A",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 94,
+    "scoreMarks": 47
+  },
+  {
+    "name": "MANOJ P GOWDA",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Megha K N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Mithil",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "A Jaanhavi Bharadhwaja",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Manvitha",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Akshaya",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "C. Madhu",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Deepshikha",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Partha P S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Darshan T v",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Manogna Y",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Kolla Jaswanth Kumar",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",
@@ -1064,7 +785,286 @@ export const students = [
   },
   {
     "name": "Yarranagu Joshitha",
-    "college": "REVA University",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Lamare Ilawanbet",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Darshan Harnal",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "R25ENO17",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Ajay C  N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Lekharaj M Amashi",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "K Mahavirji",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Aditya Kulkarni",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Chandan Gowda K C",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "G Shree Haree",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Abhilasha V Patil",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Amrut Wari",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Nandhana Raj MP",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Chirag Kapoor",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Mithun B S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Anusha S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "DHEERAJ REDDY S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "KAKANI TUSHITA",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 98,
+    "scoreMarks": 49
+  },
+  {
+    "name": "Chaitra Sadanand Sajjan",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Monisha .P",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Bhoomika S",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 96,
+    "scoreMarks": 48
+  },
+  {
+    "name": "Aswin Gabrio Fernando V",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 94,
+    "scoreMarks": 47
+  },
+  {
+    "name": "M Sree Lasya",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "B Akshay",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Dhruti M",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Manjunath",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Aditi A",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "Divyaprabha N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": 100,
+    "scoreMarks": 50
+  },
+  {
+    "name": "K Pragnyasheel",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Harshit N",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Madhuumitha S K",
+    "college": "Nandha Engineering College",
+    "course": "IoT And Its Application",
+    "department": "Electronics and Communication",
+    "role": "Student",
+    "scorePercent": null,
+    "scoreMarks": null
+  },
+  {
+    "name": "Mohammed Zaid",
+    "college": "Nandha Engineering College",
     "course": "IoT And Its Application",
     "department": "Electronics and Communication",
     "role": "Student",

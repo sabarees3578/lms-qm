@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useStore } from '../context/StoreContext.jsx'
-import loginImage from './Copy of Kanagam Business Card.png'
 
 export default function Login() {
   const [name, setName] = useState('')
@@ -17,11 +16,10 @@ export default function Login() {
   return (
     <div className="login">
       <div className="login-art">
-        <img src={loginImage} alt="Kanagam Tech" />
-        <br />
-        <span className="eyebrow">KANAGAM TECH ACADEMY</span>
-        <h2>Make room for your next big idea.</h2>
-        <p>Learn practical skills, explore new technology, and turn curiosity into something real.</p>
+        
+        <img src="/src/Quantummate Logo White.png" alt="Login art" />
+        <h2>Science meets possibility.</h2>
+        <p>Connecting ambitious learners and institutions with simulation software, advanced laboratory equipment and practical technology education.</p>
         
       </div>
       <form className="login-form" onSubmit={submit}>
